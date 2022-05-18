@@ -14,5 +14,12 @@ This packages was born of one necessity by apply standard, reduct code and have 
 
     - measure_time: 
         - measure_time: is a decorator where its function is does measure execute times.
+
     - auxiliar_message:
-        - logging_request: show the information about an requests
+        - RequestsMessage: class for management the requests methods, request and logs
+            - __init__(): 
+                - method: 'GET', 'POST', ...
+                - url: url for the request
+                - endpoint_name: The name or tag for the request
+                - **kwargs: All kwargs of each one requests
+            - make_response(): create the requests and sendt the info

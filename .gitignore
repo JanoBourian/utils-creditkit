@@ -2,3 +2,6 @@
 setup.cfg
 *toml
 pyproject.toml
+dist/
+dist/*
+src/utilities_creditkit.egg-info/

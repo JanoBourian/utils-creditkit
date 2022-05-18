@@ -1,6 +1,6 @@
-# utilities-creditkit
+# creditkit-tools
 
-Utilities-creditkit is a package with the most commons and frequents functions and operations in our creditkit project.
+Creditkit-tools is a package with the most commons and frequents functions and operations in our creditkit project.
 
 If you need more information about the project please verify the github repository
 [Github-repository](https://github.com/JanoBourian/utils-creditkit)
@@ -12,4 +12,7 @@ This packages was born of one necessity by apply standard, reduct code and have 
 
 ## Included functions
 
-    - measure_time: is a decorator where its function is does measure execute times.
+    - measure_time: 
+        - measure_time: is a decorator where its function is does measure execute times.
+    - auxiliar_message:
+        - logging_request: show the information about an requests

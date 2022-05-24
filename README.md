@@ -23,3 +23,6 @@ This packages was born of one necessity by apply standard, reduct code and have 
                 - endpoint_name: The name or tag for the request
                 - **kwargs: All kwargs of each one requests
             - make_response(): create the requests and sendt the info
+    
+    - format_text:
+        - return_binary_result: This function takes a argument if this exist return value_true else value_false. value_true and value_false are strings, those can be like "yes" and "no".

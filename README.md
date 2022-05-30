@@ -26,3 +26,4 @@ This packages was born of one necessity by apply standard, reduct code and have 
     
     - format_text:
         - return_binary_result: This function takes a argument if this exist return value_true else value_false. value_true and value_false are strings, those can be like "yes" and "no".
+        - join_list_strings: This function takes a list of arguments and concatenates each value (not empty) and return one string 
